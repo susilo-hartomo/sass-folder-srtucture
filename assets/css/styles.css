@@ -32,7 +32,7 @@ body .container {
 }
 
 .btn {
-  padding: 8px 14px;
+  padding: 14px;
   height: 40px;
   width: 150px;
   background-color: white;
@@ -81,7 +81,7 @@ body .container {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 100%;
+  width: 80%;
   margin: 100px auto;
 }
 
@@ -143,10 +143,10 @@ body .container {
 
 @media only screen and (min-width: 960px) {
   #home .container {
-    height: 98%;
+    height: 94%;
   }
   #home .main {
-    width: 60%;
+    width: 60% !important;
   }
   #home .main .bg-1 {
     border-top-left-radius: 8px;
@@ -165,7 +165,7 @@ body .container {
 
 @media only screen and (min-width: 1200px) {
   #home #home .full-height .main {
-    width: 80%;
+    width: 80% !important;
   }
 }
 

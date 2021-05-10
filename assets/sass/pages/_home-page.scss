@@ -11,7 +11,7 @@
 		.main {
 			display: flex;
 			flex-wrap: wrap;
-			width: 100%;
+			width: 80%;
 			margin: 100px auto;
 
 			.bg-1 {
@@ -75,10 +75,10 @@
 
 	@include for-tablet {
 		.container {
-			height: 98%;
+			height: 94%;
 		}
 		.main {
-			width: 60%;
+			width: 60% !important;
 
 			.bg-1 {
 				border-top-left-radius: 8px;
@@ -101,7 +101,7 @@
 		#home {
 			.full-height {
 				.main {
-					width: 80%;
+					width: 80% !important;
 				}
 			}
 		}
