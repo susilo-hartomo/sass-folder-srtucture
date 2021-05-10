@@ -1,0 +1,34 @@
+// Global scss
+
+// Import part scss
+// squence call part must by same dont change
+
+// Variables
+@import './utilities/_utilities';
+
+// Mixins
+@import './variables/_variables';
+
+// fonts
+@import './fonts/_fonts';
+
+// Icons
+@import './icons-font/iconts-fonts';
+
+// Mixins
+@import './mixins/_mixins';
+
+// Base
+@import './base/_base';
+
+// Theme
+@import './themes/_themes';
+
+// Components
+@import './components/_components';
+
+// Utilities
+@import './utilities/_utilities';
+
+// Pages
+@import './pages/_pages';

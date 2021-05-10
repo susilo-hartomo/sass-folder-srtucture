@@ -1,0 +1,19 @@
+.btn {
+	padding: 8px 14px;
+	height: 40px;
+	width: 150px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&-rounded {
+		border-radius: 20px;
+
+		&:hover {
+			background-color: transparent;
+			border: 2px solid white;
+			color: white !important;
+		}
+	}
+}

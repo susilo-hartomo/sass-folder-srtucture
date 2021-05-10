@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: $normal-text;
+	font-weight: normal;
+	font-family: $lexa, $sans-serif;
+
+	.container {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	@include for-phone {
+		.container {
+		}
+	}
+
+	@include for-tablet {
+		.container {
+			width: 80%;
+		}
+	}
+
+	@include for-desktop {
+		.container {
+			width: 80%;
+		}
+	}
+}
