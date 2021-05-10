@@ -99,15 +99,21 @@
 
 	@include for-desktop {
 		#home {
-			.main {
-				width: 80%;
+			.full-height {
+				.main {
+					width: 80%;
+				}
 			}
 		}
 	}
 
 	@include for-large-desktop {
-		.main {
-			width: 60% !important;
+		#home {
+			.full-height {
+				.main {
+					width: 70% !important;
+				}
+			}
 		}
 	}
 }
